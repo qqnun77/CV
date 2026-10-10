@@ -5,7 +5,7 @@
 body{
 background-color: #F1F5F9;
 font-family: Arial, sans-serif;
-color: #334155; 
+color: #000000; 
 margin: 0;
 padding: 0;
 }
@@ -17,12 +17,12 @@ padding: 0;
 	background-color: #FFFFFF;
 }
 h1{
-	color: #0F172A;
+	color: #E75480;
 	text-align: center;
 	margin-bottom: 30px;
 }
 h2{
-	color: #06B6D4;
+	color: #E75480;
 	margin-top: 30px;
 	margin-bottom: 15px;
 }
@@ -49,12 +49,12 @@ p{
 
 .foto-profil{
 	width: 200px;
-	border: 3px solid #06B6D4;
+	border: 3px solid #000000;
 	padding: 2px;
 }
 
 .data-identitas td{
-	padding: 5px;
+	padding: 7px;
 }
 /* LIST */
  
@@ -72,15 +72,15 @@ ol {
 }
 
 .tabel-mata-kuliah th {
-    background-color: #0F172A;
-    color: #FFFFFF;
+    background-color: #FFC0CB;
+    color: #000000;
     padding: 10px;
-    border: 1px solid #0F172A;
+    border: 1px solid #000000;
 }
 
 .tabel-mata-kuliah td {
     padding: 10px;
-    border: 1px solid #CBD5E1;
+    border: 1px solid #000000;
 }
 .tabel-mata-kuliah
 tr:nth-child(even) {
@@ -98,7 +98,7 @@ a {
 }
 
 a:hover {
-	color: #0F172A;
+	color: #FFC0CB;
 	text-decoration: underline;
 }
 
@@ -124,7 +124,7 @@ select,
 textarea {
 	width: 100%;
 	padding: 10px;
-	border: 1px solid #CBD5E1;
+	border: 1px solid #FFC0CB;
 	border-radius: 6px;
 	box-sizing: border-box;
 }
@@ -136,8 +136,8 @@ textarea {
 
 /*BUTTON*/
 button {
-	background-color: #0F172A;
-	color: #FFFFFF;
+	background-color: #FFC0CB;
+	color: #000000;
 	padding: 10px 20px;
 	border: none;
 	border-radius: 6px;
@@ -153,7 +153,7 @@ button:hover {
 /*FOOTER*/
 .footer {
 	text-align: center;
-	color: #64748B;
+	color: #000000;
 	margin-top: 30px;
 }
 .grid-informasi {
@@ -165,14 +165,14 @@ button:hover {
 }
 
 .card {
-	background-color: #FFFFFF;
+	background-color: #FFC0CB;
 	padding: 20px;
-	border: 1px solid #CBD5E1;
-	border-top: 4px solid #06B6D4;
+	border: 1px solid #000000;
+	border-top: 2px solid #000000;
 	border-radius: 8px;
 }
 .card:hover{
-	border-color: #06B6D4;
+	border-color: #FFC0CB;
 	transition: 0.3s;
 }
 /*====================================================*/
